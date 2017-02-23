@@ -1,5 +1,11 @@
+title {
+	font-family: Arial;
+	font-weight: bold;
+	font-size: 48px;
+}
+
 body {
-	background-color: #f2c65e;
+	background-color: #ecede8;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 }
@@ -8,24 +14,65 @@ img {
 	width: 100%;
 }
 
+link {
+	font-family: Georgia;
+	font-size: 18px;
+	font-color: blue;
+	line-height: 24px;
+}
+
+twitter-tweet {
+	align-content: center;
+}
+
+.navigation {
+	font-family: Arial;
+	font-weight: bold;
+	font-size: 18px;
+	margin: auto auto auto 50;
+}
+
 .container {
-max-width: 750px;
-margin: 0 auto;
+	max-width: 650px;
+	margin: 0 55px;
+	text-align: justify;
+	align-content: center;
 }
 
 .headline {
-	font-family: Helvetica;
-	font-size: 100px;
-	line-height: 95px;
+	max-width: 700px;
+	margin: 0 55px;
+	font-family: Georgia;
+	font-weight: bold;
+	font-size: 48px;
+	line-height: 60px;
+}
+
+.synopsis {
+	font-family: Georgia;
+	font-weight: bold;
+	font-size: 20px
 }
 
 .body {
 	font-family: Georgia;
-	font-size: 22px;
-	line-height: 30px;
+	font-size: 18px;
+	line-height: 24px;
 }
 
-.youtube {
-	display: block;
-	margin: 0 auto;
+.commentline {
+	color: white;
+	background-color: #333;
+	padding: 8px;
+
 }
+
+.form {
+   width: 650px;
+   height: 100px;
+   position: relative;
+ }
+
+
+
+
