@@ -42,15 +42,15 @@ twitter-tweet {
 .headline {
 	max-width: 700px;
 	margin: 0 55px;
-	font-family: Georgia;
+	font-family: Arial;
 	font-weight: bold;
 	font-size: 48px;
 	line-height: 60px;
 }
 
 .synopsis {
-	font-family: Georgia;
-	font-weight: bold;
+	font-family: Arial;
+	font-weight: semibold;
 	font-size: 20px
 }
 
@@ -63,6 +63,7 @@ twitter-tweet {
 .commentline {
 	color: white;
 	background-color: #333;
+	font-family: Arial;
 	padding: 8px;
 
 }
